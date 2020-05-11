@@ -1,11 +1,11 @@
 # Site settings
 author: Dang Nguyen
-title: 
+title: Why I decided to learn Software Development
 header-img: img/home-bg.png
 email: danghwin@gmail.com
 copyright_name: Dang Nguyen
 description: > # this means to ignore newlines until "baseurl:"
-  
+  In the pursuit of challenges
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  dangwin
