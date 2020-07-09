@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      " The Most Important "
-date:       2020-06-26 21:37:08 +0000
+date:       2020-06-26 17:37:09 -0400
 permalink:  the_most_important
 ---
 
@@ -21,3 +21,7 @@ Once everything was defined and there were no loose ends between my classes, I m
  
 
 Now back to the question “what is the most important thing that should know about my app?” I think the answer is simple. The most important thing to someone that just runs it in their terminal is that although it looks so simple on the outside, it is so complex in the inside. To a person that is just beginning and learning how to code, a simple CLI where it asks the user a question and to respond with an input and spits back out an input from the app is very complicated. The idea of defeat and “I will never be a programmer” ran across my mind so many times while trying to code. Now whenever I look at any app, I admire it more for what it is. I know how much work is put into creating apps now and all the long hours coding. I do have hope for the future as I start to understand more about coding, the syntax, and structure. With this understanding, I plan to be able to code more efficiently and be able to code in a DRY manner.
+
+-----------------------------------------------------------
+# .self
+My first encounter with .self in my CLI is with my API Manager. Self in ruby gives me access to the object that is being called upon. In my project, self.get_states is being used to get the information from my API. It is defined as a class method and is thus an object of the class, APIManager. My second encounter in my project with self is when I took the empty array and pushed each individual object into the class variable @@all. To sum things up, self depends on where it was defined. If it was inside an instance method, self is an instance of that class. If self was defined on a class level method then self is equal to the class itself. 
